@@ -1,5 +1,5 @@
 # MySQL dump Databases and cleaning scripts
-Bash scripts to perform a dumb of all MySQL databases on a server and to clean it after an amount of time
+Bash scripts to perform a dump of all MySQL databases on a server and to clean it after an amount of time
 
 In order to use this small script, you need to create a USER only for backups and grant it with the following privileges:
 
@@ -10,8 +10,12 @@ Flush privileges;
 ```
 
 ###### Requirements
+For CentOS/RHEL
 ```
 yum install bzip2
+```
+For Ubuntu/Debian
+```
 apt-get install bzip2
 ```
 
